@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/flutter_compass_v2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rv6nfiuiph/jIq28RWM+UTqI0So=
+		+OKr0M/pDWkb+Yqt3fa7fBuwIrg=
 		</data>
 		<key>Modules/flutter_compass_v2.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/flutter_compass_v2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PWkdhoUNEEKA8xRxUVb5MnqCafQ=
+		dfKMjnELX/QSucX8j7oPm4N31tY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BQqrXK6y8CHcL1mBMi9rvoglQST2wWPA1tLe9PX4IWY=
+			VP8sLnke+TlMeN85YFEPCgCzAQ4HK2pGrPVbDbvyD5E=
 			</data>
 		</dict>
 		<key>Modules/flutter_compass_v2.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IMPnZh/29FBcuGfnyYLHzzGhzngqkFUTH2+yIbSGVBo=
+			1tjCSa01rVRRLG5yhAwFJluTAiGzUprVocItQDsSkOM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

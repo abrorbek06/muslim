@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/flutter_qiblah.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		d3Xh04L8l2J6v55QfwVBZtOK/hA=
+		/N20URPig79n/5CWB4f15NWsr2Q=
 		</data>
 		<key>Modules/flutter_qiblah.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/flutter_qiblah.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YjcLvZEgcPusPwkk1eqfAc+JOpE=
+		zg82uLSQHZ6/vI0fbQXX0UxTn7Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mzW5XkMgyKwAnzwlfC+4ltsTCXDSu76EhtOyfMGG9Dw=
+			EpXG7ajFkrH2bDEigZcvDIksjCaIqg2JrRlnMCqKWpc=
 			</data>
 		</dict>
 		<key>Modules/flutter_qiblah.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9kBRy19KXV3qnbgWHbRDfwOhz45I5YSA2GOCyj53vTc=
+			KkyQnrI5OfSbx9fJnKrLMPcY/4UHBwb+W88F0/VsmTE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
