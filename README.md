@@ -1,9 +1,5 @@
-# taqvim
+# Muslim
 
-Ramazon Taqvim dasturi
+Muslim dasturi
 
-Yuboriladigan lokatsiyaga ko'ra, oylik taqvimni chiqarib beradi.
-
-Dastur qanday yozilganini ko'rmoqchi bo'lsangiz:
-
-https://bit.ly/3vr00BX
+Bu dastur blan siz Quronning barcha suralari haqida qisqacha ma'lumot ola olasiz va shu blan birga nomoz vaqtlari ramazon taqvimi va tasbeh sifatida ham ishlatsangiz bo'ladi
