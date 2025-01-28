@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 SvgPicture.asset(AppIcons.logo),
                 const SizedBox(height: 34),
                 _Title1(
-                  title: "Quron",
+                  title: "Qur'on",
                   icon: AppIcons.quron,
                   screen: const QuronSplashScreen(),
                 ),
