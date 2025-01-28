@@ -1,4 +1,4 @@
-# taqvim
+# Muslim
 
 Muslim dasturi
 
