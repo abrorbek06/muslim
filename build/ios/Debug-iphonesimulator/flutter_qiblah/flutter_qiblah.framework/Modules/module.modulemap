@@ -1,0 +1,11 @@
+framework module flutter_qiblah {
+  umbrella header "flutter_qiblah-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_qiblah.Swift {
+  header "flutter_qiblah-Swift.h"
+  requires objc
+}
