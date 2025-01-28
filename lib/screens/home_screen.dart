@@ -61,17 +61,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ],
                 ),
-                // Row(
-                //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                //   children: [
-                //     _Title2(
-                //       title: "Qibla",
-                //       icon: AppIcons.kompas_icon,
-                //       screen: const QiblahScreenn(),
-                //     ),
-                //
-                //   ],
-                // ),
                 SizedBox(height: MediaQuery.of(context).size.height * 0.20),
                 SvgPicture.asset(AppIcons.developer_icon),
                 Row(
@@ -86,7 +75,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ],
                 )
-
               ],
             ),
           ),
