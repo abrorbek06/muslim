@@ -29,51 +29,64 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 32),
           child: SingleChildScrollView(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
+            child: Stack(
+              clipBehavior: Clip.none,
               children: [
-                const SizedBox(height: 52),
-                SvgPicture.asset(AppIcons.logo),
-                const SizedBox(height: 34),
-                _Title1(
-                  title: "Qur'on",
-                  icon: AppIcons.quron,
-                  screen: const QuronSplashScreen(),
-                ),
+                Column(
+                  children: [
+                    const SizedBox(height: 52), 
+                    
+                    SvgPicture.asset(AppIcons.logo),
+                    const SizedBox(height: 34),
+                    _Title1(
+                      title: "Quron",
+                      icon: AppIcons.quron,
+                      screen: const QuronSplashScreen(),
+                    ),
 
-                _Title1(
-                  title: "Namoz Vaqtlari",
-                  icon: AppIcons.nomoz_vaqtlari_icon,
-                  screen: const TimeNamazScreen(),
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    _Title2(
-                      title: "Tasbeh",
-                      icon: AppIcons.tasbeh_icon,
-                      screen: const TasbehListScreen(),
+                    _Title1(
+                      title: "Namoz Vaqtlari",
+                      icon: AppIcons.nomoz_vaqtlari_icon,
+                      screen: const TimeNamazScreen(),
                     ),
-                    _Title2(
-                      title: "Ramazon\ntaqvimi",
-                      icon: AppIcons.roza_vaqtlari_icon,
-                      screen: const RamazonTaqvim(),
-                    ),
-                  ],
-                ),
-                SizedBox(height: MediaQuery.of(context).size.height * 0.20),
-                SvgPicture.asset(AppIcons.developer_icon),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    const Text("Developed with ",
-                        style: AppStyles.developedStyle),
-                    Text(
-                      "Flutter",
-                      style: AppStyles.developedStyle
-                          .copyWith(color: AppColors.white),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        _Title2(
+                          title: "Tasbeh",
+                          icon: AppIcons.tasbeh_icon,
+                          screen: const TasbehListScreen(),
+                        ),
+                        _Title2(
+                          title: "Ramazon\ntaqvimi",
+                          icon: AppIcons.roza_vaqtlari_icon,
+                          screen: const RamazonTaqvim(),
+                        ),
+                      ],
                     ),
                   ],
+                ),
+                Positioned(
+                  bottom: -430,
+                  right: 0,
+                  left: 0,
+                  child: Column(
+                    children: [
+                      SvgPicture.asset(AppIcons.developer_icon),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Text("Developed with ",
+                              style: AppStyles.developedStyle),
+                          Text(
+                            "Flutter",
+                            style: AppStyles.developedStyle
+                                .copyWith(color: AppColors.white),
+                          ),
+                        ],
+                      )
+                    ],
+                  ),
                 )
               ],
             ),
