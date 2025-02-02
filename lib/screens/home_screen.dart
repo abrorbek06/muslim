@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 Column(
                   children: [
-                    const SizedBox(height: 52), 
+                    const SizedBox(height: 52),
                     
                     SvgPicture.asset(AppIcons.logo),
                     const SizedBox(height: 34),
